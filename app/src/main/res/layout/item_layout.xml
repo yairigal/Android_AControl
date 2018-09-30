@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/contentTV"
+        android:layout_margin="10dp"
+        android:text=""
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/deleteItemBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Delete"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>
