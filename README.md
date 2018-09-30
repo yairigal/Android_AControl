@@ -1,1 +1,1 @@
-"# Android_AControl" 
+# Android_AControl
